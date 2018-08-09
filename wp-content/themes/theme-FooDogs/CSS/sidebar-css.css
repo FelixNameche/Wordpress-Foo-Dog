@@ -1,0 +1,54 @@
+/* Partie sidebar */
+.sidebar{
+  width: 23.9%;
+  margin-right: 10vh;
+  font-family: 'Crimson Text', serif;
+  font-weight: bolder;
+  font-size: 1.3vh;
+  }
+.sidebar a{
+  text-decoration: none;
+  color: white;
+}
+.sidebar ul :hover{
+  background-color: black;
+}
+.sidebar ul{
+  list-style: none;
+}
+.facebook{
+  background-color: #899dce;
+  height: 6vh;
+}
+.facebook p{
+  padding-top: 1.6vh;
+  padding-left: 0.8vw;
+}
+.twitter{
+  margin-top: -1.4vh;
+  background-color: #60d2f5;
+  height: 6vh;
+}
+.twitter p{
+  padding-top: 1.6vh;
+  padding-left: 0.8vw;
+}
+.instagram{
+  margin-top: -1.4vh;
+  background-color: #709cbf;
+  height: 6vh;
+}
+.instagram p{
+  padding-top: 1.6vh;
+  padding-left: 0.8vw;
+}
+.sidebar-picture{
+  margin-top: 8vh;
+}
+.sidebar span{
+  font-family: 'Raleway', sans-serif;
+  float: right;
+  margin-right: 0.8vw;
+  margin-top:0.5vh;
+  letter-spacing: 0.05vw;
+}

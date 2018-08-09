@@ -1,0 +1,49 @@
+/* Partie sidebar-article */
+.sidebar-article{
+  width: 100%;
+  margin-right: 10vh;
+  font-family: 'Crimson Text', serif;
+  font-weight: bolder;
+  font-size: 4vh;
+  }
+.sidebar-article h3{
+    font-family: 'Crimson Text', serif;
+    font-weight: normal;
+    font-size: 2vh;
+  }
+.sidebar-article a{
+  text-decoration: none;
+  color: white;
+}
+.sidebar-article .sidebar-social-article i{
+  size: 200%;
+}
+.sidebar-article  a:hover{
+  background-color: black;
+  opacity: 0.5;
+}
+.sidebar-article ul{
+  list-style: none;
+}
+.sidebar-article .social-article a{
+  margin-left: 1.5vw;
+  text-align: center;
+  display: inline-block;
+  background-color: #555555;
+  color: white;
+  width: 25px;
+  padding: 0 10px;
+  border-radius: 100%;
+  opacity: 1;
+}
+.facebook{
+}
+.twitter{
+
+}
+.instagram{
+
+}
+.sidebar-article .sidebar-picture{
+  margin-top: 4vh;
+}

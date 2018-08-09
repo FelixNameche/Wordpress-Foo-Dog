@@ -1,0 +1,100 @@
+/* Partie footer */
+.footer-container{
+width: 100%;
+font-family: 'Crimson Text', serif;
+font-weight: bolder;
+font-size: 1.8vh;
+}
+.footer-container ul{
+  list-style: none;
+}
+.footer-navigation{
+  background-color: #3a3e43;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 55vh;
+}
+.footer-navigation h3{
+  color: #9c9d9d;
+}
+.footer-social{
+  margin-top: -1.8vh;
+  background-color: #303336;
+  height: 25vh;
+}
+.footer-categories a{
+  text-decoration: none;
+  color: white;
+}
+.footer-categories p{
+  width: 90%;
+}
+.footer-categories .community{
+  border-bottom: solid 0.05vh #44484d;
+}
+.footer-categories .features{
+  border-bottom: solid 0.05vh #44484d;
+}
+.footer-categories .lifestyle{
+  border-bottom: solid 0.05vh #44484d;
+}
+.footer-categories .nutrition{
+  border-bottom: solid 0.05vh #44484d;
+}
+.footer-popular-posts{
+  color: white;
+}
+.footer-popular-posts img{
+  size:100%;
+  width: 6vw;
+}
+.footer-popular-posts a{
+  text-decoration: none;
+  color: white;
+}
+
+.instagram{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+.instagram li{
+  size:100%;
+  width: 8vw;
+}
+.instagram img{
+  size:100%;
+  width: 8vw;
+}
+.instagram .left{
+  margin-left: -1vw;
+}
+.instagram .center{
+  margin-left: -2vw;
+}
+.instagram .right{
+margin-left: -3vw;
+}
+.footer-social ul{
+  float: right;
+  margin-right: 5vw;
+}
+.footer-social li{
+  border:  hidden;
+  border-radius: 100%;
+  background-color: #45484b;
+  margin-right: 2vw;
+  display: inline;
+}
+.footer-social i{
+  border:  hidden;
+  border-radius: 100%;
+  margin-top: 2.5vh;
+  color: white;
+  font-size:150%;
+}
+.footer-social .copyright{
+  padding-top: 18vh;
+  text-align: center;
+  color: #9c9d9d;
+}
